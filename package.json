@@ -12,15 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@reduxjs/toolkit": "1.4.0",
     "css-loader": "^4.3.0",
     "cypress": "^9.5.0",
     "jest-junit": "^11.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "react-redux": "7.2.3"
+
   },
   "jest": {
     "moduleNameMapper": {
@@ -48,6 +50,7 @@
     "enzyme-to-json": "^3.5.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.4.2",
+    "react-test-renderer": "^16.13.1",
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
