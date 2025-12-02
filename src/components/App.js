@@ -13,7 +13,7 @@ const App = () => {
     <div className="page">
       <h1>User Information</h1>
 
-      <div className="form">
+      <div className="form"> 
         <input
           type="text"
           placeholder="Enter Name"
